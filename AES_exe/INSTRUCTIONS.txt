@@ -1,6 +1,8 @@
 This file should include everything you require:
--the executable file is in the 'dist' folder named AES_Tool.exe
+-the executable file is in the 'dist' folder named AES_Tool.exe which is a standalone application and doesn't require further actions.
+
+However if you want to explore/run the source code a few steps must be undertaken...
 -the python source code is in this file's directory named: AES_TOOL
 -the python source code requires the 'numpy' package which can be installed via 
 running CMD in adminstrator mode with the following command: 'pip install numpy'
--the 'os' package must also be imported
+-the 'os' package must also be imported into the python source code.
